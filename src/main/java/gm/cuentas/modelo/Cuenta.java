@@ -17,8 +17,9 @@ import lombok.ToString;
 public class Cuenta {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Integer idCuenta;
+    Integer IdCuenta;
     String nombre;
     String tipoCuenta;
     Double saldo;
+    
 }
